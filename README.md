@@ -2,7 +2,7 @@
 
 > 作者：Tom Hardy
 >
-> 来源：[3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
+> 来源：[公众号: 3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
 >
 > 参考：https://github.com/scott89/awesome-depth
 >
@@ -13,8 +13,8 @@
 ## 综述汇总
 
 1.  Dijk et al, How do neural networks see depth in single images? [PDF](https://arxiv.org/pdf/1905.07005.pdf)
-2. Amlaan et al, Monocluar depth estimation: A survey, [PDF](https://arxiv.org/pdf/1901.09402.pdf)
-3. Zhao et al, Monocular Depth Estimation Based On Deep Learning: An Overview, [PDF](https://arxiv.org/pdf/2003.06620.pdf)
+2.  Amlaan et al, Monocluar depth estimation: A survey, [PDF](https://arxiv.org/pdf/1901.09402.pdf)
+3.  Zhao et al, Monocular Depth Estimation Based On Deep Learning: An Overview, [PDF](https://arxiv.org/pdf/2003.06620.pdf)
 
 ## 1. 单目深度估计(全监督)
 
@@ -43,13 +43,13 @@
 1. Garg et al, Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue, ECCV 2016,  [Code](https://github.com/Ravi-Garg/Unsupervised_Depth_Estimation)
 2. Godard et al, Unsupervised Monocular Depth Estimation with Left-Right Consistency, CVPR 2017, [Web](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)
 3. Kuznietsov et al, Semi-Supervised Deep Learning for Monocular Depth Map Prediction, CVPR 2017, [Code](https://github.com/Yevkuzn/semodepth)
-4.  Luo et al, Single View Stereo Matching, CVPR 2018, [Code](https://github.com/lawy623/SVS)
+4. Luo et al, Single View Stereo Matching, CVPR 2018, [Code](https://github.com/lawy623/SVS)
 5. Godard et al, Digging Into Self-Supervised Monocular Depth Estimation, aXiv 2018, [PDF](https://arxiv.org/abs/1711.07933)
 6. Lai et al, Bridging Stereo Matching and Optical Flow via Spatio temporal, CVPR 2019, [PDF](https://arxiv.org/pdf/1905.09265.pdf), [Code](https://github.com/lelimite4444/)
 7. Tosi et al, Learning monocular depth estimation infusing traditional stereo knowledge, CVPR 2019, [PDF](https://arxiv.org/pdf/1904.04144.pdf) [Code](https://github.com/fabiotosi92/monoResMatch-Tensorflow)
 8. Garg et al, Learning Single Camera Depth Estimation using Dual-Pixels, ICCV 2019, [PDF](https://arxiv.org/pdf/1904.05822.pdf) [Code](https://github.com/google-research/google-research/tree/master/dual_pixels)
 9. Zhang et al, Du2Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels, arXiv 2020, [PDF](https://arxiv.org/pdf/2003.14299.pdf)
-10.  [Bi3D: Stereo Depth Estimation via Binary Classifications(CVPR2020)](https://arxiv.org/abs/2005.07274) [源代码](https://github.com/NVlabs/Bi3D)
+10. [Bi3D: Stereo Depth Estimation via Binary Classifications(CVPR2020)](https://arxiv.org/abs/2005.07274) [源代码](https://github.com/NVlabs/Bi3D)
 
 ### 2.2 Multi View
 
@@ -78,6 +78,15 @@
 3. Qiu et al, DeepLiDAR: Deep Surface Normal Guided Depth Prediction for Outdoor Scene from Sparse LiDAR Data and Single Color Image, CVPR  2019, [PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qiu_DeepLiDAR_Deep_Surface_Normal_Guided_Depth_Prediction_for_Outdoor_Scene_CVPR_2019_paper.pdf), [Code](https://github.com/JiaxiongQ/DeepLiDAR)
 4. Chen et al, Learning Joint 2D-3D Representations for Depth Completion, ICCV 2019, [PDF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Learning_Joint_2D-3D_Representations_for_Depth_Completion_ICCV_2019_paper.pdf)
 5. Tang et al, Learning Guided Convolutional Network for Depth Completion, arXiv 2019, [PDF](https://arxiv.org/pdf/1908.01238.pdf),  [Code](https://github.com/kakaxi314/GuideNet)
+6. HMS-Net: Hierarchical Multi-scale Sparsity-invariant Network for Sparse Depth Completion（太复杂，效果不好）
+7. Sparse and noisy LiDAR completion with RGB guidance and uncertainty
+8. 3D LiDAR and Stereo Fusion using Stereo Matching Network with Conditional Cost Volume Normalization
+9. Deep RGB-D Canonical Correlation Analysis For Sparse Depth Completion
+10. Confidence Propagation through CNNs for Guided Sparse Depth Regression
+11. Learning Guided Convolutional Network for Depth Completion
+12. DFineNet: Ego-Motion Estimation and Depth Refinement from Sparse, Noisy Depth Input with RGB Guidance
+13. PLIN: A Network for Pseudo-LiDAR Point Cloud Interpolation
+14. Depth Completion from Sparse LiDAR Data with Depth-Normal Constraints
 
 ## 4. 深度图融合
 
